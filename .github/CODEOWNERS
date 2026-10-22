@@ -1,0 +1,18 @@
+# Each person's folder is owned by them. GitHub will request their review
+# on any pull request that touches their folder, and (with branch protection
+# "Require review from Code Owners" turned on) only they or a site admin can approve it.
+#
+# TODO: replace each @handle with the person's real GitHub username.
+
+# Site admins own everything by default
+*                                @SDU-AI-research-center/site-admins
+
+# Personal pages: one line per member
+/people/cemil-turan/             @cemil-turan-github @SDU-AI-research-center/site-admins
+/people/mohammed-alaa-alaanzy/   @alaanzy-github @SDU-AI-research-center/site-admins
+/people/andrey-bogdanchikov/     @bogdanchikov-github @SDU-AI-research-center/site-admins
+/people/yerbol-palzhanov/        @palzhanov-github @SDU-AI-research-center/site-admins
+/people/darkhan-zholtayev/       @zholtayev-github @SDU-AI-research-center/site-admins
+/people/ualikhan-sadyk/          @sadyk-github @SDU-AI-research-center/site-admins
+/people/yernar-akhmetbek/        @akhmetbek-github @SDU-AI-research-center/site-admins
+/people/kamila-orynbekova/       @orynbekova-github @SDU-AI-research-center/site-admins
